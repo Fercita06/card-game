@@ -1,17 +1,18 @@
 public class Card {
-    public String SPADE = "\u2660";
-    public String HEARTS = "\u2661";
-    public String DIAMONDS = "\u2662";
-    public String CLUBS = "\u2663";
+
 
     private String symbol;
-    private String value;
+    private int value;
     private String suit;
 
-    public Card(String symbol, String value, String suit) {
+    public Card(String symbol, int value, String suit) {
         this.symbol = symbol;
         this.value = value;
         this.suit = suit;
+    }
+
+    public String toString(){
+        return "This card is the " + symbol + " of " + suit + " it has a value of " + value;
     }
 
     public String getSymbol() {
@@ -22,11 +23,11 @@ public class Card {
         this.symbol = symbol;
     }
 
-    public String getValue() {
+    public int getValue() {
         return value;
     }
 
-    public void setValue(String value) {
+    public void setValue(int value) {
         this.value = value;
     }
 
