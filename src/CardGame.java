@@ -30,7 +30,6 @@ public class CardGame {
                 System.out.println(newCard.toString());
                 deckOfCards.add(newCard);
 
-
             }
 
         }
@@ -57,7 +56,6 @@ public class CardGame {
 
         System.out.println(deckOfCards);
 
-
     }
 
     public void sortDeckIntoSuits(){
@@ -67,6 +65,7 @@ public class CardGame {
 
     }
 
-
 }
 
+//public void snapCards(){
+//}

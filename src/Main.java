@@ -9,6 +9,7 @@ public class Main {
         cardGame.getFirstCard();
         cardGame.shuffleDeck();
         cardGame.sortDeckInNumberOrder();
+
         cardGame.sortDeckIntoSuits();
 
     }
