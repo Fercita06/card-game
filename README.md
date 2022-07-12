@@ -1,8 +1,7 @@
 
 Card Game
 
-Our task was to model a card game using the Java language. I’ve broken my code down 
-into small parts.
+Our task was to create a card game using the Java language. 
 
 Stage 1 
 Using classes, ArrayLists and methods, we had to create a deck of Cards, using the following 
@@ -23,8 +22,7 @@ Card
 
 Stage 2 
 
-I created a CardGame Class where I had implemented all the methods I used to achieved the followint:
-Add methods for the CardGame class that allow for the following: 
+I created a CardGame Class where I had implemented all the methods that I used to achieve the following:
 
 •  Card dealCard() - takes the card from the top of the deck and returns it  
 •  ArrayList<Card> sortDeckInNumberOrder() - sorts the deck in number order (e.g. 
